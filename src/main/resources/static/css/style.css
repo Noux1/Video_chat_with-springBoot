@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+}
+
+/* ICONS */
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.login-form,
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login-form h2,
+.registration-form h2 {
+    margin-bottom: 10px;
+}
+
+.login-form form,
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-form label,
+.registration-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input,
+.registration-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.login-form button,
+.registration-form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover,
+.registration-form button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.login-form p,
+.registration-form p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login-form a,
+.registration-form a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-form a:hover,
+.registration-form a:hover {
+    text-decoration: underline;
+}
